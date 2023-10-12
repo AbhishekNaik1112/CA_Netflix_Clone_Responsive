@@ -1,19 +1,17 @@
 /* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@300&family=Libre+Baskerville:ital@0;
-1&family=Poppins&family=Roboto&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@300&family=Libre+Baskerville:ital@0;
-1&family=Nunito+Sans:opsz@6..12&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@300&family=Libre+Baskerville:ital@0.1&family=Poppins&family=Roboto&display=swap');
+
 /* Body Styling */
- body {
+body {
     /* Comment here */
-     color: white;
-     background-image: url("Title-Image.png");
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-color: #000000;
-     height: 250vh;
-     font-family: 'Roboto', sans-serif;
-     overflow-x: hidden;
+    color: white;
+    background-image: url("Title-Image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000;
+    height: 250vh;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 /* Main Bar Styling */
  #Top-Main-Bar {
@@ -215,94 +213,4 @@
      margin-left: 300px;
      font-size: 12px;
      color: #6f6f6f;
-}
-/* Adjusting font sizes and margins for smaller screens */
- @media screen and (max-width: 768px) {
-     #leftelements {
-         font-size: 16px;
-         gap: 10px;
-    }
-     #rightelements {
-         gap: 10px;
-    }
-     .MAID {
-         font-size: 100px;
-    }
-}
-/* On Image Styling */
- .NSHOW {
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
-     margin-top: 15px;
-     margin-left: 15px;
-     width: 100%;
-}
-/* Adjusting font sizes and margins for smaller screens */
- @media screen and (max-width: 768px) {
-     .NSHOW > p {
-         font-size: 14px;
-    }
-}
-/* Buttons on Image */
- .buttons {
-     display: flex;
-     justify-content: space-around;
-     width: 100%;
-     margin-top: 10px;
-     margin-left: 15px;
-}
-/* Adjusting button sizes for smaller screens */
- @media screen and (max-width: 768px) {
-     .playicon {
-         width: 12px;
-    }
-}
-/* Text Before Movie */
- .pretextmovies {
-     display: flex;
-     align-items: center;
-     margin-left: 15px;
-     font-weight: 600;
-     font-size: 16px;
-     margin-top: 10px;
-}
-/* Adjusting font sizes for smaller screens */
- @media screen and (max-width: 768px) {
-     .pretextmovies {
-         font-size: 14px;
-    }
-}
- .add {
-     margin-left: 15px;
-}
-/* Movies 1st Stack */
- .badge {
-     position: absolute;
-}
- #movies {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     width: 100%;
-}
-/* Adjusting margin for smaller screens */
- @media screen and (max-width: 768px) {
-     #movies {
-         margin-left: 15px;
-    }
-}
-/* Footer Styling */
- .socialicons {
-     display: flex;
-     justify-content: space-evenly;
-     width: 100%;
-     margin-left: 15px;
-     margin-top: 10px;
-}
-/* Adjusting margin and padding for smaller screens */
- @media screen and (max-width: 768px) {
-     .socialicons {
-         margin-left: 5px;
-    }
 }
